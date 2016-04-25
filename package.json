@@ -4,7 +4,9 @@
   "description": "A small coding challenge to implement an API route that returns fibonacci numbers",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.13.4"
+    "coffee-script": "^1.10.0",
+    "express": "^4.13.4",
+    "node-datetime": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {

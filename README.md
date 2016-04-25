@@ -42,4 +42,21 @@ The spec is as follows:
 
 
 ### Solution Discussion:
-- Your solution explanation goes here.
+To get nth Fibonacci number
+
+```
+http://localhost:3000/:n
+```
+```
+http://localhost:3000/20
+```
+
+returns the 20th Fibonacci number `6765`
+
+To request a specific function method (iterative/recursive) add the optional method key param (i/r).
+
+```
+http://localhost:3000/20/r
+```
+
+The default function method is iterative because it is much more performant.
